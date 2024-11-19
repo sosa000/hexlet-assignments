@@ -34,7 +34,7 @@ public class ReversedSequence  implements CharSequence {
         }
 
         int fixedEnd = end;
-        if(end > this.length()) {
+        if (end > this.length()) {
             fixedEnd = this.length();
         }
 
