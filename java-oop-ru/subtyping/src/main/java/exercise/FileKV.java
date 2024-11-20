@@ -3,7 +3,8 @@ package exercise;
 // BEGIN
 import java.util.HashMap;
 import java.util.Map;
-import static exercise.Utils.*;
+import static exercise.Utils.serialize;
+import static exercise.Utils.writeFile;
 
 public class FileKV implements KeyValueStorage {
     private String path;

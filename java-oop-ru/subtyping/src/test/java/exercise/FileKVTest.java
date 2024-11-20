@@ -12,7 +12,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 // BEGIN
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static exercise.Utils.*;
+import static exercise.Utils.deserialize;
+import static exercise.Utils.readFile;
 // END
 
 
